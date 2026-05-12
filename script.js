@@ -105,7 +105,7 @@ function renderProductos() {
         <div class="producto-footer">
           <div class="producto-precio">Consultar</div>
           <a href="https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(p.waMsg)}"
-             class="btn-pedir" target="_blank">Pedir por WA</a>
+          class="btn-pedir" target="_blank">Enviar WhatsApp</a>
         </div>
       </div>
     </div>
