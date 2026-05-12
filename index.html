@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mates Costa — Productos Regionales</title>
+
+  <!-- FUENTES — podés cambiarlas en fonts.google.com -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =====================
+     NAV
+     Cambiá los textos de los links y el href de cada uno
+===================== -->
+<nav>
+  <div class="nav-logo">Mates <span>Costa</span></div>
+  <ul class="nav-links">
+    <li><a href="#categorias">Productos</a></li>
+    <li><a href="#personalizados">Personalizados</a></li>
+    <li><a href="#pedido">Hacer pedido</a></li>
+    <li><a href="https://wa.me/5492224606890" class="nav-cta">WhatsApp</a></li>
+  </ul>
+</nav>
+
+<!-- =====================
+     HERO
+     Cambiá el título, subtítulo y estadísticas
+===================== -->
+<section class="hero">
+  <div class="hero-left">
+    <span class="hero-tag">Productos Regionales · Buenos Aires</span>
+    <h1 class="hero-title">
+      Mates con<br>
+      <em>alma propia</em>
+    </h1>
+    <p class="hero-sub">
+      Calidad premium en cada mate. Stanley, camioneros, imperiales,
+      térmicos y personalizados. Compras y ventas al por mayor y menor
+      desde Buenos Aires.
+    </p>
+    <div class="hero-btns">
+      <a href="#productos" class="btn-primary">Ver catálogo</a>
+      <a href="#pedido" class="btn-secondary">Hacer pedido</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">+200</div>
+        <div class="stat-label">Clientes felices</div>
+      </div>
+      <div>
+        <div class="stat-num">5</div>
+        <div class="stat-label">Líneas de producto</div>
+      </div>
+      <div>
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Calidad premium</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="assets/img_4336-04bb2862f344a5eef217175551079617-1024-1024.webp"
+         alt="Mate artesanal premium" class="hero-photo">
+    <div class="hero-badge">Envíos a todo el país</div>
+  </div>
+</section>
+
+<!-- =====================
+     CATEGORIAS
+     Cada cat-card es una línea de producto
+     Cambiá el emoji, nombre y descripción
+===================== -->
+<section class="categorias" id="categorias">
+  <div class="section-header">
+    <span class="section-tag">Nuestras líneas</span>
+    <h2 class="section-title">Encontrá tu <em>mate ideal</em></h2>
+  </div>
+  <div class="cat-grid">
+    <a href="#productos" class="cat-card">
+      <span class="cat-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="19" stroke="#c9a84c" stroke-width="1.5"/>
+          <path d="M22 11 L24.8 19.2 L33.5 19.2 L26.8 24.2 L29.5 32.5 L22 27.5 L14.5 32.5 L17.2 24.2 L10.5 19.2 L19.2 19.2 Z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </span>
+      <div class="cat-name">Stanley</div>
+      <div class="cat-count">La marca que todos quieren</div>
+    </a>
+    <a href="#productos" class="cat-card">
+      <span class="cat-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="15" width="26" height="14" rx="2" stroke="#c9a84c" stroke-width="1.5"/>
+          <path d="M30 19 L37 19 L39 26 L39 29 L30 29 Z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="11" cy="31" r="3.5" stroke="#c9a84c" stroke-width="1.5"/>
+          <circle cx="33" cy="31" r="3.5" stroke="#c9a84c" stroke-width="1.5"/>
+          <line x1="4" y1="22" x2="30" y2="22" stroke="#c9a84c" stroke-width="1" stroke-dasharray="3 2" opacity="0.6"/>
+        </svg>
+      </span>
+      <div class="cat-name">Camioneros</div>
+      <div class="cat-count">Resistentes y duraderos</div>
+    </a>
+    <a href="#productos" class="cat-card">
+      <span class="cat-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 8 L36 18 L31 36 L13 36 L8 18 Z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M8 18 L22 8 L36 18 L22 36 Z" stroke="#c9a84c" stroke-width="1" stroke-linejoin="round" opacity="0.5"/>
+          <line x1="8" y1="18" x2="36" y2="18" stroke="#c9a84c" stroke-width="1.5"/>
+        </svg>
+      </span>
+      <div class="cat-name">Imperiales</div>
+      <div class="cat-count">Estilo y elegancia</div>
+    </a>
+    <a href="#productos" class="cat-card">
+      <span class="cat-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="18" y="8" width="8" height="20" rx="4" stroke="#c9a84c" stroke-width="1.5"/>
+          <circle cx="22" cy="33" r="5" stroke="#c9a84c" stroke-width="1.5"/>
+          <line x1="10" y1="15" x2="14" y2="15" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="30" y1="15" x2="34" y2="15" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="10" y1="22" x2="14" y2="22" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="30" y1="22" x2="34" y2="22" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="22" y1="28" x2="22" y2="28" stroke="#c9a84c" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <div class="cat-name">Térmicos</div>
+      <div class="cat-count">Para el mate que dura</div>
+    </a>
+    <a href="#personalizados" class="cat-card">
+      <span class="cat-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 33 L15 29 L31 13 L35 17 L19 33 Z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M31 13 L33 11 L35 11 L35 13 L33 15 Z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M11 33 L11 37 L15 37 L15 33" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+          <line x1="27" y1="17" x2="29" y2="19" stroke="#c9a84c" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+        </svg>
+      </span>
+      <div class="cat-name">Personalizados</div>
+      <div class="cat-count">River, AFA, Boca y más</div>
+    </a>
+  </div>
+</section>
+
+<!-- =====================
+     PRODUCTOS
+     Los productos se renderizan desde script.js
+     Para agregar/editar productos, modificá el array en script.js
+===================== -->
+<section class="productos" id="productos">
+  <div class="section-header">
+    <span class="section-tag">Catálogo</span>
+    <h2 class="section-title">Productos <em>destacados</em></h2>
+  </div>
+  <div class="productos-grid">
+    <!-- Se completa automáticamente desde script.js -->
+  </div>
+</section>
+
+<!-- =====================
+     PERSONALIZADOS
+     Cambiá los pers-item según los diseños que ofrecen
+===================== -->
+<section class="personalizados" id="personalizados">
+  <span class="section-tag" style="color: var(--dorado);">Ediciones especiales</span>
+  <h2 class="section-title">Mates <em>personalizados</em></h2>
+  <p>Grabado láser con el diseño que quieras. Equipos de fútbol, regalos corporativos, fechas especiales. Presentación en caja premium incluida.</p>
+  <div class="personalizados-grid">
+    <div class="pers-item">
+      <span class="pers-icon">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="16" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <circle cx="20" cy="20" r="6" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <line x1="20" y1="4" x2="20" y2="14" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <line x1="20" y1="26" x2="20" y2="36" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <line x1="4" y1="20" x2="14" y2="20" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <line x1="26" y1="20" x2="36" y2="20" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <line x1="8" y1="8" x2="15" y2="15" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+          <line x1="25" y1="25" x2="32" y2="32" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+          <line x1="32" y1="8" x2="25" y2="15" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+          <line x1="15" y1="25" x2="8" y2="32" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+        </svg>
+      </span>
+      <div class="pers-name">River Plate</div>
+    </div>
+    <div class="pers-item">
+      <span class="pers-icon">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 8 L10 34" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M10 8 L30 14 L10 20" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linejoin="round" fill="rgba(255,255,255,0.1)"/>
+          <circle cx="10" cy="34" r="2" fill="rgba(255,255,255,0.7)"/>
+        </svg>
+      </span>
+      <div class="pers-name">Boca Juniors</div>
+    </div>
+    <div class="pers-item">
+      <span class="pers-icon">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 6 L34 14 L34 26 C34 32 20 36 20 36 C20 36 6 32 6 26 L6 14 Z" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M14 20 L18 24 L26 16" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <div class="pers-name">Selección AFA</div>
+    </div>
+    <div class="pers-item">
+      <span class="pers-icon">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="18" width="24" height="16" rx="2" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <path d="M14 18 C14 13 26 13 26 18" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="20" y1="18" x2="20" y2="34" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+          <circle cx="20" cy="26" r="3" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+          <path d="M14 10 L20 6 L26 10" stroke="rgba(255,255,255,0.5)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <div class="pers-name">Tu diseño</div>
+    </div>
+  </div>
+  <a href="https://wa.me/5492224606890?text=Hola!%20quiero%20consultar%20por%20un%20mate%20personalizado"
+     class="btn-personalizar" target="_blank">Consultar personalizado</a>
+</section>
+
+<!-- =====================
+     FORMULARIO DE PEDIDO
+     Los IDs de los campos se usan en script.js
+     No los cambies sin actualizar el JS también
+===================== -->
+<section class="form-section" id="pedido">
+  <div class="section-header">
+    <span class="section-tag">Pedidos</span>
+    <h2 class="section-title">Hacé tu <em>pedido</em></h2>
+  </div>
+  <div class="form-wrapper">
+    <div class="form-title">Formulario de pedido</div>
+    <p class="form-sub">Completá el formulario y te contactamos por WhatsApp en menos de 24hs.</p>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="campo-nombre">Nombre</label>
+        <input id="campo-nombre" type="text" placeholder="Tu nombre">
+      </div>
+      <div class="form-group">
+        <label for="campo-telefono">WhatsApp</label>
+        <input id="campo-telefono" type="tel" placeholder="Tu número">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="campo-producto">Producto de interés</label>
+      <select id="campo-producto">
+        <option value="">Seleccioná una línea</option>
+        <option>Mate Stanley</option>
+        <option>Mate Camionero</option>
+        <option>Mate Imperial</option>
+        <option>Mate Térmico</option>
+        <option>Mate Personalizado</option>
+        <option>Por mayor</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="campo-cantidad">Cantidad</label>
+        <input id="campo-cantidad" type="number" placeholder="Unidades" min="1">
+      </div>
+      <div class="form-group">
+        <label for="campo-provincia">Provincia</label>
+        <input id="campo-provincia" type="text" placeholder="Para el envío">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="campo-detalles">Detalles adicionales</label>
+      <textarea id="campo-detalles" placeholder="Personalizaciones, consultas especiales, pedidos por mayor..."></textarea>
+    </div>
+    <button class="btn-submit" onclick="enviarPedido()">Enviar pedido por WhatsApp</button>
+  </div>
+</section>
+
+<!-- =====================
+     FOOTER
+===================== -->
+<footer>
+  <div>
+    <div class="footer-logo">Mates <span>Costa</span></div>
+    <p>Productos regionales de calidad premium. Mates artesanales, personalizados y sets completos. Buenos Aires, Argentina.</p>
+    <br>
+    <a href="https://wa.me/5492224606890" class="footer-wa" target="_blank">
+      💬 +54 9 222 460 6890
+    </a>
+  </div>
+  <div>
+    <div class="footer-title">Productos</div>
+    <ul class="footer-links">
+      <li><a href="#productos">Stanley</a></li>
+      <li><a href="#productos">Camioneros</a></li>
+      <li><a href="#productos">Imperiales</a></li>
+      <li><a href="#productos">Térmicos</a></li>
+      <li><a href="#personalizados">Personalizados</a></li>
+    </ul>
+  </div>
+  <div>
+    <div class="footer-title">Contacto</div>
+    <ul class="footer-links">
+      <li><a href="https://wa.me/5492224606890">WhatsApp</a></li>
+      <li><a href="https://www.instagram.com/mates.costta/">Instagram</a></li>
+      <li><a href="#pedido">Hacer un pedido</a></li>
+      <li><a href="#pedido">Ventas por mayor</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2025 Mates Costa — Todos los derechos reservados</span>
+  <span>Desarrollado por VitaDev 🌿</span>
+</div>
+
+<!-- SCRIPT -->
+<script src="script.js"></script>
+</body>
+</html>
